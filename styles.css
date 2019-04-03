@@ -1,0 +1,343 @@
+body{
+  font-family:"Open Sans", sans-serif;
+  font-size: 14px;
+  margin: 0 auto;
+  padding: 0;
+  font-weight: 100;
+
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 15px;
+  font-size: 16px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  
+}
+
+nav ul{
+  margin: 0 auto;
+}
+
+header{
+  height: 560px;
+}
+
+.top-links {
+  display: block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  left: 50%;
+  height: 25px;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.top-left{
+  padding: 0;
+  height: 30px;
+  width: 22%;
+  text-align: center;
+  margin-right: 30px;
+  margin-top: -5px;
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.float-left{
+  float: left;
+}
+
+.col-3{
+  width: 30%;
+  text-align: center;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+.col-3 p{
+  margin: 0% 20%;
+}
+
+
+.float-right{
+  float: right;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.button-config{
+  border-radius: 20px;
+  box-sizing: border-box;
+  border: none;
+}
+
+.heart {
+  padding-right: 15px;
+}
+
+
+#top-header{
+  height: 50px;
+  background-color: rgb(32, 101, 136);
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#npm-logo{
+  height: 40px;
+  padding: 2%;
+}
+
+#search-bar{
+  display: inline-block;
+  width: 90%;
+  background-color: rgb(31, 82, 111);
+  font-size: 1.4em;
+  height: 40px;
+  float: left;
+  border: 1px inset  whitesmoke;
+  
+}
+
+#search-btn{
+  width: 9%;
+  padding: 5px;
+  display: inline-block;
+  height: 44px;
+  background-color: rgb(31, 82, 111);
+  float: left;
+  font-size: 1.3em;
+  color: white;
+  border: 1px inset whitesmoke;
+  font-weight: 100;
+}
+
+#search-box{
+  width: 75%;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+#registry{
+  height: 30px;
+  font-size: 1.3em;
+  margin-right: 15px;
+  color: white;
+  padding-top: 10px;
+}
+
+#registry a{
+  text-decoration: none;
+  color: white;
+
+}
+
+#bear-logo{
+  height: 40px;
+  margin: 0 15px 0 0;
+}
+
+#bot-header{
+  background-image: url("images/city-scape.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  width: 100%;
+  line-height: 1.5em;
+}
+
+#par-1{
+  width: 40%;
+  margin: 0 auto;
+  color: white;
+  height: 300px;
+  padding-top: 4%;
+  padding-right: 15%;
+  margin-left: 10%;
+}
+
+#par-1 h1{
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 2em;
+}
+
+#par-1 p{
+  font-size: 18px;
+  font-weight: 100;
+}
+
+#signup-btn{
+  background-color: rgb(240, 146, 51);
+  color: white;
+  width: 30%;
+  height: 13%;
+  font-size: 18px;
+  font-weight: 100;
+
+}
+
+#collaboration{
+  height: 500px;
+  background-color: rgb(39, 53, 71);
+  
+}
+
+#collab-img{
+  width: 35%;
+  margin: 0 auto;
+  padding-right: 3%;
+  padding-left: 10%;
+  padding-bottom: 20%;
+  height: 500px;
+}
+
+#npm-text{
+  width: 45%;
+  padding-top: 5%;
+  color: white;
+}
+
+#npm-text h2{
+  font-size: 45px;
+  font-weight: 100;
+  line-height: 1em;
+}
+
+#npm-text li{
+  line-height: 1.8em;
+  font-size: 22px;
+  font-weight: 100;
+
+}
+
+#sign-for-orgs{
+  background-color: rgb(203, 56, 55);
+  color: white;
+  width: 33%;
+  height: 12%;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 1.7em;
+}
+
+#learn-more{
+  text-decoration: none;
+  line-height: 3em;
+  color: white;
+  font-size: 20px;
+  
+}
+
+#about-npm{
+  background-image: url("images/forklift.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding-left: 5%;
+  padding-top: 5%;
+  color: white;
+  position: relative;
+}
+
+#what-npm{
+  width: 38%;
+  margin-right: 23%;
+}
+
+#about-npm h2{
+  font-size: 45px;
+  font-weight: 100;
+  line-height: 1em;
+  margin-top: -200px;
+  
+}
+
+#about-npm p{
+  width: 75%;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1em;
+  line-height: 1.3em;
+
+}
+
+
+#npm-btn{
+  background-color: rgb(49, 68, 88);
+  color: white;
+  width: 27%;
+  height: 20%;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 2em;
+
+}
+
+#what-can-you{
+  height: 400px;
+  background-color: white;
+  
+}
+
+#what-can-you img{
+  width: 32%;
+  height: 41%; 
+}
+
+#what-can-you-top {
+  text-align: center;
+  margin-top: 5%;
+}
+
+#what-can-you-top p{
+  text-align: center;
+  font-size: 18px;
+}
+
+#what-can-you-top h2{
+  color: rgb(83, 88, 98);
+  font-size: 28px;
+}
+
+#what-can-you-top p{
+  color: rgb(135, 145, 156);
+}
+
+#what-can-you a{
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+
+}
+
+#what-can-you-bot{
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.3em;
+  margin-top: -30px;
+}
+
+#what-can-you-bot h3{
+  color: rgb(79, 94, 110);
+}
